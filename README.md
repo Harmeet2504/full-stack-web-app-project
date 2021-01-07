@@ -7,7 +7,7 @@
 ## Group Members
 * Mary Brown
 * Malini Murthy
-* Harmeet Kaur
+* Harmeet Kaur (Team Lead)
 * Emi Babu 
 
 ## Deployed on Heruko http://livebetter.herokuapp.com/
