@@ -46,7 +46,7 @@ This is an internactive Web Dashboard of US death rates and death causes (per 10
  -The final dataset was deployed onto non-relational “NoSQL” database, MongoDB. An account was set up in MongoDB cluster that could be accessed/connected through commandline or using GUI enabled MongoDB Compass.  MongoClient was used to communicate with MongoDB using pymongo. Documents were loaded as dictionaries as NoSQL database provides support for JSON-styled, document-oriented storage systems. The database is available as "complete_death_coord_data" with one collection named "mortality_records".
  
  ### Step 3: Design Flask API 
- -Data from database were pulled in to create an API with multiple (specify number) routes using Flask `jsonify` to convert data into a valid JSON response object. Data returned from routes were used in building interactive visualizations using javascript libraries.
+ -Data from database were pulled in to create an API with multiple routes using Flask `jsonify` to convert data into a valid JSON response object. Data returned from routes were used in building interactive visualizations using javascript libraries.
  
  ### App Routes
 http://localhost:8000/data/<cause_str> 
